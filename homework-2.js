@@ -47,9 +47,21 @@ switch(x[2]){
     case '02':
       x[2] = "2nd";
       break;
-      case '01':
+      case '03':
     x[2] = "3rd";
     break;
+    case '21':
+      x[2] = "21st";
+      break;
+      case '22':
+        x[2] = "22nd";
+        break;
+        case '23':
+          x[2] = "23rd";
+          break;
+          case '31':
+            x[2] = "31st";
+            break;
     default:
       x[2] = x[2] + "th";
 
